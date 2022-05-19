@@ -15,10 +15,10 @@ function TodoInput()
 		<div className="col m-2 hero-image   text-center font-weight-bold text-white" >
 		<br/>
 		
-			<h1 className="text-center"> Add Your Details</h1>
+			<h3 className="text-center"> Add Your Details</h3>
 		<br/>
 			<div className="size text-center">
-			<label>Enter parking slot</label>
+			<label>Enter parking slot no</label>
 				<input 
 				type="number" 
 				value={id}
@@ -54,7 +54,7 @@ function TodoInput()
 						setName('');
 						setId('');
 					}}
-				className="btn btn-primary  mx-2"><strong>Add</strong></button>
+				className="btn btn-primary  mx-2"><strong>Book Slot</strong></button>
 				</div>
 			</div>
 		</div>

@@ -9,11 +9,9 @@ function TenTodos() {
 <div>
 <br/>
 <br/>
-<br/>
-<br/>
 <hr/>
 <div className="text-center">
-<h1>You will get 10 Spaces at a time</h1>
+{/* <h4>Add 10 Spaces in the parking Area at a time</h4> */}
 				<button 
 					onClick={()=>
 					{
@@ -22,7 +20,7 @@ function TenTodos() {
 						dispatch(extendTodo(
 						));
 					}}
-				className="btn btn-primary  mx-2"><strong>CLICK HERE FOR NEW SPACES</strong></button>
+				className="btn btn-primary  mx-2"><strong>CLICK HERE FOR ADD NEW SPACES BELOW</strong></button>
 				
 				<hr/></div></div>
   );

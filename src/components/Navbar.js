@@ -7,7 +7,7 @@ function Navbar() {
   <>
   	
 <nav className="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-  <a className="navbar-brand" href="#">PARKING SLOT BOOKING SYSTEM</a>
+  <h2 className="mx-auto navbar-brand">Parking Slot Booking Landing Page</h2>
  
 </nav>
   	

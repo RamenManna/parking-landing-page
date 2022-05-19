@@ -51,7 +51,7 @@ export let reducer=(state=todos,action)=>
 		break;
 		case EXTEND_TODO:
 		newTodos=[...state];
-		for(let i=1;i<=10;i++)
+		for(let i=1;i<=6;i++)
 		{
 			let act={
 			id:newTodos.length+1,
